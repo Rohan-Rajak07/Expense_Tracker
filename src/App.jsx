@@ -80,7 +80,7 @@ function App() {
   return (
     <ExpenseProvider value={{transaction,addItem,deleteItem}}>
     <div className="h-screen w-screen bg-red-200 flex items-center justify-center">
-      <div className="MainBox w-full h-full sm:w-1/5 sm:h-5/6 bg-gray-800  sm:rounded-lg shadow-2xl px-5 relative">
+      <div className="MainBox w-screen h-screen sm:w-1/5 sm:h-5/6 bg-gray-800  sm:rounded-lg shadow-2xl px-5 relative">
         <div className="innnerbox bg-white w-full h-36 rounded-lg py-3 px-4 my-6 relative">
           <button 
             onClick={()=>
