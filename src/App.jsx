@@ -7,7 +7,6 @@ import {  Plus ,Trash2 } from "lucide-react";
 
 function App() {
 
-  
   const[transaction,setTransaction]=useState([])
   const[input,setInput]=useState("hidden")
   const[title,setTitle]=useState("")
@@ -122,7 +121,7 @@ function App() {
         <button onClick={()=>{
           setInput("block")
         }}
-        className="bg-white rounded-full p-2 absolute right-4 bottom-5">
+        className="bg-white rounded-full p-2 sm:absolute fixed  right-4 bottom-5">
           <Plus size={19}></Plus>
         </button>
 
